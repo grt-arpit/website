@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        /* background: rgb(180, 174, 174); */
+        background: url(cool-background.png);
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .my-card {
+        /* border: 3px solid black; */
+        background: rgba(125, 15, 125, 0.888);
+        width: 400px;
+        /* margin: 200px auto; */
+        padding: 40px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        color: white;
+        box-shadow: 4px 2px 10px 2px rgb(84, 18, 84);
+      }
+      .my-input {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 4px 2px 10px 2px rgba(0, 0, 0, 0.888);
+      }
+      .my-img {
+        margin: auto;
+        display: block;
+        height: 200px;
+      }
+      .my-button {
+        background: rgb(101, 201, 216);
+        padding: 10px;
+        width: 100%;
+        border-radius: 20px;
+        font-size: 1.2em;
+        border: none;
+        box-shadow: 4px 2px 10px 2px rgba(0, 0, 0, 0.341); 
+      }
+      * {
+        font-family: montserrat;
+      }
+      .lnk{
+          color: black;
+      }
+    </style>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="my-card">
+      <img
+        class="my-img"
+        src="https://firebase.google.com/downloads/brand-guidelines/PNG/logo-vertical.png"
+        alt="text"
+      />
+      <h3>login here</h3>
+      
+      <input class="my-input" type="email" placeholder="email id" />
+
+     
+      <input class="my-input" type="password" placeholder="password" />
+      <input type="checkbox" /><label for="checkbox"
+        >remember me/accept terms and conditions</label
+      ><br /><br />
+      <button class="my-button">submit</button>
+      <hr />
+      <h4>
+        new users? creat account <a class="lnk" href="https://in.pinterest.com/">sign up</a>
+      </h4>
+    </div>
+  </body>
+</html>
